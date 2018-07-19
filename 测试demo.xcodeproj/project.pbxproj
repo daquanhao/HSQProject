@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C33851142079AEA70030320C /* HSQCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C33851132079AEA70030320C /* HSQCustomTextView.m */; };
 		C33851482079F16D0030320C /* HSQCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C33851472079F16D0030320C /* HSQCustomButton.m */; };
-		C338514B2079F6B60030320C /* FL_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = C338514A2079F6B60030320C /* FL_Button.m */; };
 		C3385151207A145E0030320C /* HSQCustomShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3385150207A145E0030320C /* HSQCustomShareView.m */; };
 		C3437ABF207753120022BB56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3437ABE207753120022BB56 /* AppDelegate.m */; };
 		C3437AC2207753120022BB56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3437AC1207753120022BB56 /* ViewController.m */; };
@@ -19,6 +18,7 @@
 		C3437ACD207753160022BB56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3437ACC207753160022BB56 /* main.m */; };
 		C3437AD5207753FF0022BB56 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3437AD4207753FF0022BB56 /* HeaderView.m */; };
 		C3437ADA207759D50022BB56 /* UIImage+HSQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C3437AD9207759D50022BB56 /* UIImage+HSQ.m */; };
+		C36F56FF207C44090086C2FA /* HSQCustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C36F56FE207C44090086C2FA /* HSQCustomNavBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,6 @@
 		C33851132079AEA70030320C /* HSQCustomTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSQCustomTextView.m; sourceTree = "<group>"; };
 		C33851462079F16D0030320C /* HSQCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSQCustomButton.h; sourceTree = "<group>"; };
 		C33851472079F16D0030320C /* HSQCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSQCustomButton.m; sourceTree = "<group>"; };
-		C33851492079F6B60030320C /* FL_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FL_Button.h; path = "../../../Downloads/封装的工具类/自定义按钮/UIButtonDemo/UIButtonDemo/FL_Button.h"; sourceTree = "<group>"; };
-		C338514A2079F6B60030320C /* FL_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FL_Button.m; path = "../../../Downloads/封装的工具类/自定义按钮/UIButtonDemo/UIButtonDemo/FL_Button.m"; sourceTree = "<group>"; };
 		C338514F207A145E0030320C /* HSQCustomShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSQCustomShareView.h; sourceTree = "<group>"; };
 		C3385150207A145E0030320C /* HSQCustomShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSQCustomShareView.m; sourceTree = "<group>"; };
 		C3437ABA207753120022BB56 /* 测试demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +42,8 @@
 		C3437AD4207753FF0022BB56 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 		C3437AD8207759D50022BB56 /* UIImage+HSQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HSQ.h"; sourceTree = "<group>"; };
 		C3437AD9207759D50022BB56 /* UIImage+HSQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HSQ.m"; sourceTree = "<group>"; };
+		C36F56FD207C44090086C2FA /* HSQCustomNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSQCustomNavBar.h; sourceTree = "<group>"; };
+		C36F56FE207C44090086C2FA /* HSQCustomNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSQCustomNavBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,7 @@
 		C3437ABC207753120022BB56 /* 测试demo */ = {
 			isa = PBXGroup;
 			children = (
-				C33851492079F6B60030320C /* FL_Button.h */,
-				C338514A2079F6B60030320C /* FL_Button.m */,
+				C36F56FC207C40D30086C2FA /* 可以使用的 */,
 				C3437ABD207753120022BB56 /* AppDelegate.h */,
 				C3437ABE207753120022BB56 /* AppDelegate.m */,
 				C3437AC0207753120022BB56 /* ViewController.h */,
@@ -99,6 +98,15 @@
 				C3437ACC207753160022BB56 /* main.m */,
 			);
 			path = "测试demo";
+			sourceTree = "<group>";
+		};
+		C36F56FC207C40D30086C2FA /* 可以使用的 */ = {
+			isa = PBXGroup;
+			children = (
+				C36F56FD207C44090086C2FA /* HSQCustomNavBar.h */,
+				C36F56FE207C44090086C2FA /* HSQCustomNavBar.m */,
+			);
+			path = "可以使用的";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,11 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36F56FF207C44090086C2FA /* HSQCustomNavBar.m in Sources */,
 				C3437AC2207753120022BB56 /* ViewController.m in Sources */,
 				C3437ACD207753160022BB56 /* main.m in Sources */,
 				C3385151207A145E0030320C /* HSQCustomShareView.m in Sources */,
 				C3437ABF207753120022BB56 /* AppDelegate.m in Sources */,
-				C338514B2079F6B60030320C /* FL_Button.m in Sources */,
 				C3437ADA207759D50022BB56 /* UIImage+HSQ.m in Sources */,
 				C3437AD5207753FF0022BB56 /* HeaderView.m in Sources */,
 				C33851482079F16D0030320C /* HSQCustomButton.m in Sources */,
