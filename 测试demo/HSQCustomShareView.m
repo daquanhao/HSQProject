@@ -101,12 +101,10 @@
     }];
     
     // 头部的提示语
-    UILabel *placeholder_Label = [[UILabel alloc] initWithFrame:CGRectMake(5, 5, self.frame.size.width - 10, 44)];
+    UILabel *placeholder_Label = [[UILabel alloc] initWithFrame:CGRectMake(5, 0, self.frame.size.width - 10, KFistBtn_Y)];
     
     placeholder_Label.textAlignment = NSTextAlignmentCenter;
-    
-    placeholder_Label.backgroundColor = [UIColor orangeColor];
-    
+        
     placeholder_Label.textColor = [UIColor colorWithRed:74 / 255.0 green:74 / 255.0 blue:74 / 255.0 alpha:1.0];
     
     placeholder_Label.font = [UIFont systemFontOfSize:15.0];

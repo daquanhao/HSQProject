@@ -14,6 +14,7 @@
 #import "FL_Button.h"
 #import "HSQCustomButton.h"
 #import "HSQCustomShareView.h"
+#import "HSQNavViewController.h"
 
 @interface ViewController ()<UIAlertViewDelegate,UITextViewDelegate>
 
@@ -100,19 +101,23 @@
     
     NSLog(@"=======");
     
-    NSDictionary *diction = @{@"name":@"微信",@"icon":@"weixin"};
-    NSDictionary *diction01 = @{@"name":@"朋友圈",@"icon":@"weixin"};
-    NSDictionary *diction02 = @{@"name":@"QQ",@"icon":@"weixin"};
-    NSDictionary *diction03 = @{@"name":@"QQ空间",@"icon":@"weixin"};
-    NSDictionary *diction04 = @{@"name":@"微博",@"icon":@"weixin"};
-    NSDictionary *diction05 = @{@"name":@"QQ空间",@"icon":@"weixin"};
-    NSDictionary *diction06 = @{@"name":@"微博",@"icon":@"weixin"};
-
-    NSArray *array = @[diction,diction01,diction02,diction03,diction04,diction05,diction06];
+//    NSDictionary *diction = @{@"name":@"微信",@"icon":@"weixin"};
+//    NSDictionary *diction01 = @{@"name":@"朋友圈",@"icon":@"weixin"};
+//    NSDictionary *diction02 = @{@"name":@"QQ",@"icon":@"weixin"};
+//    NSDictionary *diction03 = @{@"name":@"QQ空间",@"icon":@"weixin"};
+//    NSDictionary *diction04 = @{@"name":@"微博",@"icon":@"weixin"};
+//    NSDictionary *diction05 = @{@"name":@"QQ空间",@"icon":@"weixin"};
+//    NSDictionary *diction06 = @{@"name":@"微博",@"icon":@"weixin"};
+//
+//    NSArray *array = @[diction,diction01,diction02,diction03,diction04,diction05,diction06];
+//
+//    HSQCustomShareView *ShareView = [[HSQCustomShareView alloc] init];
+//
+//    [ShareView showInView:[UIApplication sharedApplication].keyWindow contentArray:array];
     
-    HSQCustomShareView *ShareView = [[HSQCustomShareView alloc] init];
+    HSQNavViewController *NavVC = [[HSQNavViewController alloc] init];
     
-    [ShareView showInView:[UIApplication sharedApplication].keyWindow contentArray:array];
+    [self.navigationController pushViewController:NavVC animated:YES];
 }
 
 - (void)textViewDidBeginEditing:(UITextView *)textView {
