@@ -11,7 +11,6 @@
 #import <objc/runtime.h>
 #import "HeaderView.h"
 #import "HSQCustomTextView.h"
-#import "FL_Button.h"
 #import "HSQCustomButton.h"
 #import "HSQCustomShareView.h"
 #import "HSQNavViewController.h"
@@ -145,6 +144,8 @@
     NSLog(@"idgcuwegfuewgfugweufgweugfuwegfyuweguyffwiuf");
     
     self.view.backgroundColor = [UIColor purpleColor];
+    
+    self.navigationItem.title = @"我的代码";
 }
 
 /**
