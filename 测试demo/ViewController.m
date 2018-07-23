@@ -144,7 +144,7 @@
 
     NSLog(@"idgcuwegfuewgfugweufgweugfuwegfyuweguyffwiuf");
     
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor purpleColor];
 }
 
 /**
